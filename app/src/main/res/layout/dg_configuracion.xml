@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Parámetros Iniciales"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+            android:textColor="@android:color/white"
+            tools:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tvCerrarDialogo"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="X"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+            android:textColor="@android:color/white"
+            tools:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="3dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:id="@+id/tilCorreo_MA"
+            android:hint="Ingrese email">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/etCorreo_MA"
+                android:text=""
+                android:ems="22"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancelar_DGMA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ahora no"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/buttons_home_round_background_left"
+                android:textColor="@android:color/black" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/btnVerificarCorreo_MA"
+            android:layout_weight="1"
+            android:background="@drawable/buttons_home_round_background_right"
+            android:src="@android:drawable/ic_menu_send" />
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

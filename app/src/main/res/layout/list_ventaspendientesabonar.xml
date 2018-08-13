@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bordersinrelleno"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/tvFechaVenta_lvpa"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:rotation="330"
+            android:text="Fecha de venta"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvTotVendido_lvpa"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:padding="2dp"
+            android:rotation="330"
+            android:text="T. vendido"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvTotCobrar_lvpa"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:padding="2dp"
+            android:rotation="330"
+            android:text="T. cobrar"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvTotAbonado_lvpa"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:padding="2dp"
+            android:rotation="330"
+            android:text="T. abonado"
+            android:textColor="#00ff00"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvSaldo_lvpa"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:padding="2dp"
+            android:rotation="330"
+            android:text="Saldo"
+            android:textColor="#ff0000"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnAbonarVenta_lvpa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_home_right"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="abonar"
+            android:textSize="10sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

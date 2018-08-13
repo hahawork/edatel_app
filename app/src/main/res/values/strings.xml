@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">EDATEL</string>
+    <string name="title_activity_guardar_punto_venta">Cliente nuevo</string>
+    <string name="nombre_punto_de_venta">Nombre Punto de Venta</string>
+    <string name="title_activity_vender">Vender Recarga</string>
+    <string name="title_activity_marcar_asistencias">Marcar visita</string>
+    <string name="title_activity_envios_pendientes">Reporte</string>
+    <string name="title_activity_frm_configuracion">Configuración</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <string-array name="pref_radio_list_titles">
+        <item>Treinta</item>
+        <item>Cincuenta</item>
+        <item>Cien</item>
+        <item>Doscientos</item>
+    </string-array>
+    <string-array name="pref_radio_list_values">
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+
+    <!-- Example settings for Notifications -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <string name="title_activity_frm_reportes">Reportes</string>
+    <string name="title_activity_frm_estado_cuenta">Estados de Cuenta</string>
+    <string name="title_estado_mio">Mi estado</string>
+    <string name="title_estado_cliente">Estado cliente</string>
+
+    <string name="detalle_permiso">Descripción del permiso: \n 1. Para detectar si la venta se realizó con éxito.\n2. Para guardar su saldo disponible para ventas.\n3. Para obtener el saldo del cliente.</string>
+    <string name="title_activity_recuperacion_clientes">Recuperacion de Clientes</string>
+</resources>

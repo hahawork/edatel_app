@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:icon="@drawable/buttons_marcar_get_position"
+        android:title="Visitas al cliente">
+
+        <EditTextPreference
+            android:defaultValue="Usuario"
+            android:key="nombUsuario"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Mostrar nombre de Usuario" />
+
+        <ListPreference
+            android:defaultValue="100"
+            android:entries="@array/pref_radio_list_titles"
+            android:entryValues="@array/pref_radio_list_values"
+            android:key="stradiopdv"
+            android:title="Radio de búsqueda" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Ventas y Reportes">
+
+        <EditTextPreference android:defaultValue="3"
+            android:key="stMaximCreditoPermitido"
+            android:enabled="false"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Cantidad de créditos maximos permitidos"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Estados de cuentas">
+
+        <EditTextPreference android:defaultValue="4"
+            android:key="stPorcentajeGananciaCliente"
+            android:enabled="false"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Porcentaje de ganancia para el cliente."/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Sobre la Aplicación">
+        <Preference android:title="Nombre"
+            android:summary="@string/app_name"/>
+        <Preference android:title="Versión"
+            android:key="stKeyVersionApp"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
